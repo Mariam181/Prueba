@@ -1,0 +1,92 @@
+body {
+    font-family: 'Open Sans';
+    font-size: 20px;
+}
+body, html {
+    height: 100%;
+    color: black;
+    line-height: 1.8;
+}
+
+body {
+    margin: 0;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*Menu Styles*/
+.navbar li a:hover { 
+    font-size: 30px; 
+    font-weight: bold;
+}
+
+.navbar {
+    width: 20%;
+    margin: 4% auto;
+}
+
+.navbar li {
+    /*float: left;*/
+    padding: 6px;
+    list-style: none;
+    margin: 20px;
+    font-size: 25px;
+    background-color: #6f04a7;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+}
+
+.title {
+    font-family: 'Great Vibes';
+    font-size: 3.5em;
+    color: #6f04a7;
+    text-align: center;
+    margin: 0;
+    padding-top: 40px;
+}
+
+.name {
+    color: white;
+    display: inline;
+    margin-left: 50px;
+    font-size: 30px;
+    font-weight: 0;
+}
+
+.name-bar ul {
+    float: right;
+    padding: 0;
+    margin: 0;
+    margin-right: 20px;
+}
+
+.name-bar {
+    background-color: #6f04a7;
+}
+
+
+
+
+/*Parallax Effect*/
+.background_2, .background_3 {
+    opacity: 0.7;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Bacground 1 */
+.menu {
+    height: 816px;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url("../img/image.jpg");
+}
